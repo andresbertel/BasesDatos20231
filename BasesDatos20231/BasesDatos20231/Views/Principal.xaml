@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDatos20231.Views.Principal">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="ID: "/>
+                <Entry x:Name="EntryId"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nombre: "/>
+                <Entry  x:Name="EntryNombre"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="ID: "/>
+                <Entry x:Name="EntryApellido"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Guardar / Actualizar"
+                        Clicked="GuardarActualizar"/>
+                
+                <Button Text="Elimina"
+                        Clicked="Eliminar"/>
+                
+                
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text="ver todos"
+                        Clicked="BuscarTodos"/>
+
+                <Button Text="Buscar Uno"
+                        Clicked="BuscarUno"/>
+
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

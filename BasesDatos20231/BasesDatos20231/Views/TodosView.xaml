@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDatos20231.Views.TodosView">
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView ItemsSource="{Binding ListadoPersonas}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="*,*,*">
+                            <Label Text="{Binding Id}" />
+                            
+                            <Label Text="{Binding Name}"
+                                   Grid.Column="1"/>
+                            
+                            <Label Text="{Binding Apellido}" 
+                                     Grid.Column="2"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                
+                
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
