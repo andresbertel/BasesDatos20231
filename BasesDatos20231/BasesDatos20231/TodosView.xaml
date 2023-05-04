@@ -10,10 +10,10 @@
                         <Grid ColumnDefinitions="*,*,*">
                             <Label Text="{Binding Id}" />
                             
-                            <Label Text="{Binding Name}"
+                            <Label Text="{Binding Nombres}"
                                    Grid.Column="1"/>
                             
-                            <Label Text="{Binding Apellido}" 
+                            <Label Text="{Binding Apellidos}" 
                                      Grid.Column="2"/>
                         </Grid>
                     </DataTemplate>

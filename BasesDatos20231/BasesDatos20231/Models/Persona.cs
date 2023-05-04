@@ -10,9 +10,9 @@ namespace BasesDatos20231.Models
        [PrimaryKey,AutoIncrement]
         public int Id { get; set; }
 
-        public String Name { get; set; }
+        public String Nombres { get; set; }
 
-        public String Apellido { get; set; }
+        public String Apellidos { get; set; }
 
     }
 }

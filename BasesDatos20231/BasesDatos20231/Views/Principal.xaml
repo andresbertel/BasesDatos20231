@@ -7,6 +7,7 @@
             <StackLayout Orientation="Horizontal">
                 <Label Text="ID: "/>
                 <Entry x:Name="EntryId"
+                        Text="{Binding Persona.Id}"
                        HorizontalOptions="FillAndExpand"/>
             </StackLayout>
 
@@ -14,13 +15,15 @@
             <StackLayout Orientation="Horizontal">
                 <Label Text="Nombre: "/>
                 <Entry  x:Name="EntryNombre"
+                        Text="{Binding Persona.Nombres}"
                        HorizontalOptions="FillAndExpand"/>
             </StackLayout>
 
 
             <StackLayout Orientation="Horizontal">
-                <Label Text="ID: "/>
+                <Label Text="Apellido: "/>
                 <Entry x:Name="EntryApellido"
+                        Text="{Binding Persona.Apellidos}"
                        HorizontalOptions="FillAndExpand"/>
             </StackLayout>
 
