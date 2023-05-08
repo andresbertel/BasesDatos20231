@@ -27,7 +27,7 @@ namespace BasesDatos20231.Data
 
         private void InitHttpClient()
         {
-            client.BaseAddress = new Uri("https://19f9-181-71-68-51.ngrok.io/");
+            client.BaseAddress = new Uri("https://aa9c-2803-1800-5106-f6a3-4895-8057-7d4-bc5a.ngrok.io/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
             new MediaTypeWithQualityHeaderValue("application/json"));
